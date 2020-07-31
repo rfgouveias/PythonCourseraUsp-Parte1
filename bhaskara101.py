@@ -13,7 +13,7 @@ else:
         ru = -b / (2*a)
         print ("A única raiz é:",ru)
     else:
-        r1 = -b + sqrt(delta) / (2*a)
-        r2 = -b - sqrt(delta) / (2*a)
+        r1 = -b + math.sqrt(delta) / (2*a)
+        r2 = -b - math.sqrt(delta) / (2*a)
         print ("As raízes reais são", r1, "e",r2)
 
